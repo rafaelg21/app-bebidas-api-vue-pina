@@ -1,7 +1,7 @@
 
 # Bebidas Vue
 
-Proyecto de consulta y gestión de recetas de bebidas desarrollado con Vue 3, Vite y TailwindCSS. Incluye manejo de favoritos, consumo de API externa y uso de Pinia para el estado global.
+Proyecto de consulta y gestión de recetas de bebidas desarrollado con Vue 3, Vite y TailwindCSS. Incluye manejo de favoritos, consumo de API externa y uso de Pinia para el estado global. proyecto de uso educativo para  mejorar  del aprendizaje 
 
 ---
 
