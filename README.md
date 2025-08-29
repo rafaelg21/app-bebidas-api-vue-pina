@@ -14,7 +14,7 @@ Proyecto de consulta y gestión de recetas de bebidas desarrollado con Vue 3, Vi
 
 1. Clona este repositorio:
 	```bash
-	git clone <url-del-repo>
+	git clone https://github.com/rafaelg21/app-bebidas-api-vue-pina.git
 	cd bebidas-vue
 	```
 
