@@ -1,3 +1,16 @@
+## Configuración de OpenRouter.ai
+
+Para que la integración con OpenRouter.ai funcione correctamente, debes crear un archivo `.env` en la raíz del proyecto y agregar tu token personal.
+
+1. Regístrate y genera tu token en [https://openrouter.ai/](https://openrouter.ai/)
+2. Crea un archivo llamado `.env` en la raíz del proyecto.
+3. Agrega la siguiente línea, reemplazando `TU_TOKEN_AQUI` por tu token real:
+
+	```env
+	VITE_OPENROUTER_API_KEY=TU_TOKEN_AQUI
+	```
+
+> El proyecto no funcionará con la búsqueda inteligente de recetas si no configuras tu token correctamente.
 
 # Bebidas Vue
 
