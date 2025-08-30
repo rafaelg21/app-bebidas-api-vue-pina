@@ -27,6 +27,7 @@ Proyecto de consulta y gestión de recetas de bebidas desarrollado con Vue 3, Vi
 
 Puedes ver el proyecto funcionando aquí: [bebidas-vue-pina-tredix360.netlify.app](https://bebidas-vue-pina-tredix360.netlify.app)
 
+
 ## Tecnologías y librerías instaladas
 
 - [Vue 3](https://vuejs.org/)
@@ -36,6 +37,10 @@ Puedes ver el proyecto funcionando aquí: [bebidas-vue-pina-tredix360.netlify.ap
 - [Vue Router](https://router.vuejs.org/)
 - [Axios](https://axios-http.com/)
 - [@heroicons/vue](https://github.com/tailwindlabs/heroicons)
+
+## Integración con OpenRouter.ai
+
+El proyecto está integrando [OpenRouter.ai](https://openrouter.ai/) para realizar búsquedas inteligentes de recetas de bebidas usando inteligencia artificial. Esto permite a los usuarios encontrar recetas de manera más eficiente y personalizada.
 
 ## Scripts útiles
 

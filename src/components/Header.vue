@@ -54,6 +54,14 @@ const handleSubmit = () => {
                         >
                             Favoritos
                         </RouterLink>
+
+                         <RouterLink 
+                        :to="{ name: 'ia' }"
+                        class="hover:text-orange-400"
+                        active-class="text-orange-500"
+                        >
+                            Generar con IA
+                        </RouterLink>
                     </nav>
             </div>
             <form
