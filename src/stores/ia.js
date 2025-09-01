@@ -9,6 +9,7 @@ export const useIAStore = defineStore('ia', () =>{
     const cargando = ref(false)
 
     async function generarReceta() {
+        console.log('API KEY:', import.meta.env.VITE_OPENROUTER_KEY);
         respuesta.value = "";
         cargando.value=true;
         const resultado = await IAservice.generarReceta(prompt.value)

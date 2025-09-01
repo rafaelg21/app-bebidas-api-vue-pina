@@ -36,9 +36,13 @@ Proyecto de consulta y gestión de recetas de bebidas desarrollado con Vue 3, Vi
 	npm install
 	```
 
+
 ## Ver el proyecto en línea
 
-Puedes ver el proyecto funcionando aquí: [bebidas-vue-pina-tredix360.netlify.app](https://bebidas-vue-pina-tredix360.netlify.app)
+Puedes ver el proyecto funcionando aquí:
+- [bebidas-vue.tredix360.com](https://bebidas-vue.tredix360.com/)
+
+> Nota: Si la funcionalidad de IA no responde o muestra error, es porque se ha alcanzado el límite diario gratuito de uso de la API de OpenRouter.ai. Este límite se reinicia cada día o puedes ampliarlo agregando créditos en tu cuenta de OpenRouter.
 
 
 ## Tecnologías y librerías instaladas

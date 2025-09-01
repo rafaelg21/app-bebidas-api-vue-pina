@@ -1,4 +1,6 @@
 <script setup>
+  import { computed } from 'vue'
+  import { marked } from 'marked'
   import { useIAStore } from '@/stores/ia'
   import { useNotificacionesStore } from '@/stores/Notificaciones'
 
@@ -16,6 +18,8 @@
     store.generarReceta()
    
   }
+
+  const respuestaHtml = computed(() => marked(store.respuesta))
 </script>
 
 <template>
@@ -50,8 +54,6 @@
       </div>
     </form>
     <p v-if="store.cargando" class="text-center animate-blink">Generando...</p>
-    <div class="py-10 whitespace-pre-wrap">
-        {{ store.respuesta }}
-    </div>
+    <div class="py-10 space-y-2" v-html="respuestaHtml"></div>
   </div>
 </template>
